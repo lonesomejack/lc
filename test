@@ -1,1 +1,36 @@
-test
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Error 410: Gone</title>
+<link href="/bootstrap.min.css" rel="stylesheet">
+<link href="/font-awesome.css" rel="stylesheet">
+<link href="/animate.css" rel="stylesheet">
+<link href="/style.css" rel="stylesheet">
+<link rel="shortcut icon" href="/favicon.ico" />
+</head>
+
+<body class="gray-bg">
+   <div class="middle-box text-center animated fadeInDown">
+      <h1>140</h1>
+      <h3 class="font-bold">Gone</h3>
+      <div class="error-desc">
+         <p>The requested resource is no longer available at the server and no forwarding address is known.</p>
+         <p class="small"><i>
+            This condition is expected to be considered permanent.
+            Clients with link editing capabilities should delete references to the Request-URI after user approval,
+            or check the address again at a later time, in the event the resource has moved to another server.
+         </i></p>
+         <p class="small"><i>
+            This response is cacheable unless indicated otherwise.
+         </i></p>
+               </div>
+   </div>
+</body>
+
+<script src="/jquery-1.10.2.js"></script>
+<script src="/bootstrap.min.js"></script>
+
+</html>
